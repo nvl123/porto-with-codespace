@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/edited.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Sentinel - android app for guard you from negative habit",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This is an android app that I created to help people break their negative habits. It uses a simple interface and provides daily reminders to help users stay on track.",
+    url: "https://github.com/Nvl123/Sentinel",
   },
   {
-    title: "Web Development for Beginners",
+    title: "deep learning with python - Indonesia translation",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "this is a translation of the popular deep learning with python book by Francois Chollet. I translated it to Indonesian to make it more accessible to people in Indonesia who are interested in deep learning.",
+    url: "https://nvl123.github.io/Deep-Learning-dengan-Python/",
   },
   {
-    title: "My Resume Site",
+    title: "anime recommendation system",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This is a recommendation system that I created to recommend anime to users based on their preferences. It uses a simple interface and provides personalized recommendations based on user input.",
+    url: "https://github.com/Nvl123/Sistem-Rekomendasi-Anime-berbasis-content-based-dan-colaborative-filtering",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "IoT Smartlock",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is a smart lock that I created using IoT technology. It allows users to control their locks remotely and provides enhanced security features.",
+    url: "https://github.com/Nvl123/smartlock",
   },
 ];
 
@@ -61,10 +61,10 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "50%", alignSelf: "center", overflow: "hidden" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ width: "100%", aspectRatio: "16/9", objectFit: "cover", borderRadius: "12px", marginLeft: "-40px" }}
             alt={imageAltText}
           />
         </div>

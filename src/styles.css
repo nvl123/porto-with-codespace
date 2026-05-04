@@ -60,6 +60,11 @@ h2 {
   padding-top: 1rem;
 }
 
+#home h1,
+#home h2 {
+  color: white;
+}
+
 h3 {
   font-weight: 400;
   font-size: 1.25rem;
@@ -94,7 +99,7 @@ li::marker {
 }
 
 a {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
